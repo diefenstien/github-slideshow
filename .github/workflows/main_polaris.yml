@@ -3,9 +3,9 @@
 name: Polaris public runner
 on:
   push:
-    branches: [ master ]
+    branches: [ master, diefenstien-patch-1 ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, diefenstien-patch-1 ]
  
 jobs:
   polaris:
